@@ -1,0 +1,84 @@
+{
+    "stateRecords": {
+        "rucardona16@gmail.com": {
+            "e975dbb6cb046fce61a2b7fab5a1fde5@qa-app.claus.co": [
+                {
+                    "_id": "61775538fb58786180e0bdd5",
+                    "company": "000000005058",
+                    "document": "000000000293",
+                    "targetEmail": "rucardona16@gmail.com",
+                    "mailgunId": "e975dbb6cb046fce61a2b7fab5a1fde5@qa-app.claus.co",
+                    "typeEvent": "delivered",
+                    "date": "2021-10-26T01:09:12.385Z",
+                    "payload": {
+                        "signature": {
+                            "token": "6e1814205f1dd2be5f9785a5b5a8663cdb6e05f127d0b58ea9",
+                            "timestamp": "1635210551",
+                            "signature": "ea9435ff7d3f5a99cf7d62770c1b098a66d97ee267fcb4a969b4da0dd464871b"
+                        },
+                        "event-data": {
+                            "tags": [],
+                            "timestamp": 1635210545.285932,
+                            "storage": {
+                                "url": "https://sw.api.mailgun.net/v3/domains/www.clauserp.com/messages/AwACBamNzK5g2xtj9NlP9qq1BnEBuZhFZQ==",
+                                "key": "AwACBamNzK5g2xtj9NlP9qq1BnEBuZhFZQ=="
+                            },
+                            "recipient-domain": "gmail.com",
+                            "event": "delivered",
+                            "campaigns": [],
+                            "user-variables": {
+                                "company": "000000005058",
+                                "document": "000000000293"
+                            },
+                            "flags": {
+                                "is-routed": false,
+                                "is-authenticated": true,
+                                "is-system-test": false,
+                                "is-test-mode": false
+                            },
+                            "log-level": "info",
+                            "envelope": {
+                                "transport": "smtp",
+                                "sender": "factura-electronica@clauserp.com",
+                                "sending-ip": "198.61.254.24",
+                                "targets": "rucardona16@gmail.com"
+                            },
+                            "message": {
+                                "headers": {
+                                    "to": "rucardona16@gmail.com, pepe@yo.com",
+                                    "message-id": "e975dbb6cb046fce61a2b7fab5a1fde5@qa-app.claus.co",
+                                    "from": "factura-electronica@clauserp.com",
+                                    "subject": ";;SDCF293;;                                                            "
+                                },
+                                "attachments": [
+                                    {
+                                        "size": 79838,
+                                        "content-type": "application/pdf",
+                                        "filename": "fv5058000000000293.pdf"
+                                    }
+                                ],
+                                "size": 81099
+                            },
+                            "recipient": "rucardona16@gmail.com",
+                            "id": "2vZyTum9Rnew-k5fTs3iZQ",
+                            "delivery-status": {
+                                "tls": true,
+                                "mx-host": "gmail-smtp-in.l.google.com",
+                                "attempt-no": 1,
+                                "description": "",
+                                "session-seconds": 5.93012809753418,
+                                "utf8": true,
+                                "code": 250,
+                                "message": "OK",
+                                "certificate-verified": true
+                            }
+                        }
+                    },
+                    "createdAt": "2021-10-26T01:09:12.386Z",
+                    "updatedAt": "2021-10-26T01:09:12.386Z",
+                    "__v": 0
+                }
+            ]
+        }
+    }
+}
