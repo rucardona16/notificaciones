@@ -1,6 +1,162 @@
 {
     "stateRecords": {
         "rucardona16@gmail.com": {
+            "847e318c098c40ed1b7a496c1f7734ea@qa-app.claus.co": [
+                {
+                    "_id": "618bee1a001d8f3564105f47",
+                    "company": "000000005058",
+                    "document": "000000000293",
+                    "targetEmail": "rucardona16@gmail.com",
+                    "mailgunId": "847e318c098c40ed1b7a496c1f7734ea@qa-app.claus.co",
+                    "typeEvent": "opened",
+                    "date": "2021-11-10T16:06:50.844Z",
+                    "payload": {
+                        "signature": {
+                            "token": "72750a424a254c882505f9cf7b1ab8c6eeb36934ed7e2b960b",
+                            "timestamp": "1635004138",
+                            "signature": "fe113fe925dc61fc01bf81200a1fdc61334614059fb887abb070a70f17f90e84"
+                        },
+                        "event-data": {
+                            "tags": [],
+                            "timestamp": 1635004138.887053,
+                            "storage": {
+                                "url": "https://sw.api.mailgun.net/v3/domains/www.clauserp.com/messages/AwACBe8j2Z1157S6uWFFHYDaja1VPQ-VZQ==",
+                                "key": "AwACBe8j2Z1157S6uWFFHYDaja1VPQ-VZQ=="
+                            },
+                            "recipient-domain": "gmail.com",
+                            "event": "opened",
+                            "campaigns": [],
+                            "user-variables": {
+                                "company": "000000005058",
+                                "document": "000000000293"
+                            },
+                            "flags": {
+                                "is-routed": false,
+                                "is-authenticated": true,
+                                "is-system-test": false,
+                                "is-test-mode": false
+                            },
+                            "log-level": "info",
+                            "envelope": {
+                                "transport": "smtp",
+                                "sender": "factura-electronica@clauserp.com",
+                                "sending-ip": "198.61.254.24",
+                                "targets": "rucardona16@gmail.com"
+                            },
+                            "message": {
+                                "headers": {
+                                    "to": "rucardona16@gmail.com, pepe@yo.com",
+                                    "message-id": "847e318c098c40ed1b7a496c1f7734ea@qa-app.claus.co",
+                                    "from": "factura-electronica@clauserp.com",
+                                    "subject": ";;SDCF293;;                                                            "
+                                },
+                                "attachments": [
+                                    {
+                                        "size": 79838,
+                                        "content-type": "application/pdf",
+                                        "filename": "fv5058000000000293.pdf"
+                                    }
+                                ],
+                                "size": 81071
+                            },
+                            "recipient": "rucardona16@gmail.com",
+                            "id": "OmAWhvFWQsyYR4QKchFmsQ",
+                            "delivery-status": {
+                                "tls": true,
+                                "mx-host": "gmail-smtp-in.l.google.com",
+                                "attempt-no": 1,
+                                "description": "",
+                                "session-seconds": 1.1626629829406738,
+                                "utf8": true,
+                                "code": 250,
+                                "message": "OK",
+                                "certificate-verified": true
+                            }
+                        }
+                    },
+                    "createdAt": "2021-11-10T16:06:50.859Z",
+                    "updatedAt": "2021-11-10T16:06:50.859Z",
+                    "__v": 0
+                }
+            ],
+            "847e318c098c40ed1b7a496c1f7734eb@qa-app.claus.co": [
+                {
+                    "_id": "618bee22001d8f3564105f48",
+                    "company": "000000005058",
+                    "document": "000000000293",
+                    "targetEmail": "rucardona16@gmail.com",
+                    "mailgunId": "847e318c098c40ed1b7a496c1f7734eb@qa-app.claus.co",
+                    "typeEvent": "opened",
+                    "date": "2021-11-10T16:06:58.877Z",
+                    "payload": {
+                        "signature": {
+                            "token": "72750a424a254c882505f9cf7b1ab8c6eeb36934ed7e2b960b",
+                            "timestamp": "1635004138",
+                            "signature": "fe113fe925dc61fc01bf81200a1fdc61334614059fb887abb070a70f17f90e84"
+                        },
+                        "event-data": {
+                            "tags": [],
+                            "timestamp": 1635004138.887053,
+                            "storage": {
+                                "url": "https://sw.api.mailgun.net/v3/domains/www.clauserp.com/messages/AwACBe8j2Z1157S6uWFFHYDaja1VPQ-VZQ==",
+                                "key": "AwACBe8j2Z1157S6uWFFHYDaja1VPQ-VZQ=="
+                            },
+                            "recipient-domain": "gmail.com",
+                            "event": "opened",
+                            "campaigns": [],
+                            "user-variables": {
+                                "company": "000000005058",
+                                "document": "000000000293"
+                            },
+                            "flags": {
+                                "is-routed": false,
+                                "is-authenticated": true,
+                                "is-system-test": false,
+                                "is-test-mode": false
+                            },
+                            "log-level": "info",
+                            "envelope": {
+                                "transport": "smtp",
+                                "sender": "factura-electronica@clauserp.com",
+                                "sending-ip": "198.61.254.24",
+                                "targets": "rucardona16@gmail.com"
+                            },
+                            "message": {
+                                "headers": {
+                                    "to": "rucardona16@gmail.com, pepe@yo.com",
+                                    "message-id": "847e318c098c40ed1b7a496c1f7734eb@qa-app.claus.co",
+                                    "from": "factura-electronica@clauserp.com",
+                                    "subject": ";;SDCF293;;                                                            "
+                                },
+                                "attachments": [
+                                    {
+                                        "size": 79838,
+                                        "content-type": "application/pdf",
+                                        "filename": "fv5058000000000293.pdf"
+                                    }
+                                ],
+                                "size": 81071
+                            },
+                            "recipient": "rucardona16@gmail.com",
+                            "id": "OmAWhvFWQsyYR4QKchFmsQ",
+                            "delivery-status": {
+                                "tls": true,
+                                "mx-host": "gmail-smtp-in.l.google.com",
+                                "attempt-no": 1,
+                                "description": "",
+                                "session-seconds": 1.1626629829406738,
+                                "utf8": true,
+                                "code": 250,
+                                "message": "OK",
+                                "certificate-verified": true
+                            }
+                        }
+                    },
+                    "createdAt": "2021-11-10T16:06:58.879Z",
+                    "updatedAt": "2021-11-10T16:06:58.879Z",
+                    "__v": 0
+                }
+            ],
             "e975dbb6cb046fce61a2b7fab5a1fde5@qa-app.claus.co": [
                 {
                     "_id": "61775538fb58786180e0bdd5",
@@ -76,6 +232,166 @@
                     },
                     "createdAt": "2021-10-26T01:09:12.386Z",
                     "updatedAt": "2021-10-26T01:09:12.386Z",
+                    "__v": 0
+                }
+            ]
+        },
+        "rucardona@gmail.com": {
+            "947e318c098c40ed1b7a496c1f7734eb@qa-app.claus.co": [
+                {
+                    "_id": "618bee80001d8f3564105f49",
+                    "company": "000000005058",
+                    "document": "000000000294",
+                    "targetEmail": "rucardona@gmail.com",
+                    "mailgunId": "947e318c098c40ed1b7a496c1f7734eb@qa-app.claus.co",
+                    "typeEvent": "opened",
+                    "date": "2021-11-10T16:08:32.109Z",
+                    "payload": {
+                        "signature": {
+                            "token": "72750a424a254c882505f9cf7b1ab8c6eeb36934ed7e2b960b",
+                            "timestamp": "1635004138",
+                            "signature": "fe113fe925dc61fc01bf81200a1fdc61334614059fb887abb070a70f17f90e84"
+                        },
+                        "event-data": {
+                            "tags": [],
+                            "timestamp": 1635004138.887053,
+                            "storage": {
+                                "url": "https://sw.api.mailgun.net/v3/domains/www.clauserp.com/messages/AwACBe8j2Z1157S6uWFFHYDaja1VPQ-VZQ==",
+                                "key": "AwACBe8j2Z1157S6uWFFHYDaja1VPQ-VZQ=="
+                            },
+                            "recipient-domain": "gmail.com",
+                            "event": "opened",
+                            "campaigns": [],
+                            "user-variables": {
+                                "company": "000000005058",
+                                "document": "000000000294"
+                            },
+                            "flags": {
+                                "is-routed": false,
+                                "is-authenticated": true,
+                                "is-system-test": false,
+                                "is-test-mode": false
+                            },
+                            "log-level": "info",
+                            "envelope": {
+                                "transport": "smtp",
+                                "sender": "factura-electronica@clauserp.com",
+                                "sending-ip": "198.61.254.24",
+                                "targets": "rucardona@gmail.com"
+                            },
+                            "message": {
+                                "headers": {
+                                    "to": "rucardona@gmail.com, pepe@yo.com",
+                                    "message-id": "947e318c098c40ed1b7a496c1f7734eb@qa-app.claus.co",
+                                    "from": "factura-electronica@clauserp.com",
+                                    "subject": ";;SDCF293;;                                                            "
+                                },
+                                "attachments": [
+                                    {
+                                        "size": 79838,
+                                        "content-type": "application/pdf",
+                                        "filename": "fv5058000000000293.pdf"
+                                    }
+                                ],
+                                "size": 81071
+                            },
+                            "recipient": "rucardona@gmail.com",
+                            "id": "OmAWhvFWQsyYR4QKchFmsQ",
+                            "delivery-status": {
+                                "tls": true,
+                                "mx-host": "gmail-smtp-in.l.google.com",
+                                "attempt-no": 1,
+                                "description": "",
+                                "session-seconds": 1.1626629829406738,
+                                "utf8": true,
+                                "code": 250,
+                                "message": "OK",
+                                "certificate-verified": true
+                            }
+                        }
+                    },
+                    "createdAt": "2021-11-10T16:08:32.110Z",
+                    "updatedAt": "2021-11-10T16:08:32.110Z",
+                    "__v": 0
+                }
+            ]
+        },
+        "test@gmail.com": {
+            "647e318c098c40ed1b7a496c1f7734eb@qa-app.claus.co": [
+                {
+                    "_id": "618beeae001d8f3564105f4a",
+                    "company": "000000005058",
+                    "document": "000000000294",
+                    "targetEmail": "test@gmail.com",
+                    "mailgunId": "647e318c098c40ed1b7a496c1f7734eb@qa-app.claus.co",
+                    "typeEvent": "opened",
+                    "date": "2021-11-10T16:09:18.855Z",
+                    "payload": {
+                        "signature": {
+                            "token": "72750a424a254c882505f9cf7b1ab8c6eeb36934ed7e2b960b",
+                            "timestamp": "1635004138",
+                            "signature": "fe113fe925dc61fc01bf81200a1fdc61334614059fb887abb070a70f17f90e84"
+                        },
+                        "event-data": {
+                            "tags": [],
+                            "timestamp": 1635004138.887053,
+                            "storage": {
+                                "url": "https://sw.api.mailgun.net/v3/domains/www.clauserp.com/messages/AwACBe8j2Z1157S6uWFFHYDaja1VPQ-VZQ==",
+                                "key": "AwACBe8j2Z1157S6uWFFHYDaja1VPQ-VZQ=="
+                            },
+                            "recipient-domain": "gmail.com",
+                            "event": "opened",
+                            "campaigns": [],
+                            "user-variables": {
+                                "company": "000000005058",
+                                "document": "000000000294"
+                            },
+                            "flags": {
+                                "is-routed": false,
+                                "is-authenticated": true,
+                                "is-system-test": false,
+                                "is-test-mode": false
+                            },
+                            "log-level": "info",
+                            "envelope": {
+                                "transport": "smtp",
+                                "sender": "factura-electronica@clauserp.com",
+                                "sending-ip": "198.61.254.24",
+                                "targets": "test@gmail.com"
+                            },
+                            "message": {
+                                "headers": {
+                                    "to": "test@gmail.com, pepe@yo.com",
+                                    "message-id": "647e318c098c40ed1b7a496c1f7734eb@qa-app.claus.co",
+                                    "from": "factura-electronica@clauserp.com",
+                                    "subject": ";;SDCF293;;                                                            "
+                                },
+                                "attachments": [
+                                    {
+                                        "size": 79838,
+                                        "content-type": "application/pdf",
+                                        "filename": "fv5058000000000293.pdf"
+                                    }
+                                ],
+                                "size": 81071
+                            },
+                            "recipient": "rucardona@gmail.com",
+                            "id": "OmAWhvFWQsyYR4QKchFmsQ",
+                            "delivery-status": {
+                                "tls": true,
+                                "mx-host": "gmail-smtp-in.l.google.com",
+                                "attempt-no": 1,
+                                "description": "",
+                                "session-seconds": 1.1626629829406738,
+                                "utf8": true,
+                                "code": 250,
+                                "message": "OK",
+                                "certificate-verified": true
+                            }
+                        }
+                    },
+                    "createdAt": "2021-11-10T16:09:18.856Z",
+                    "updatedAt": "2021-11-10T16:09:18.856Z",
                     "__v": 0
                 }
             ]
